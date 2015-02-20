@@ -1,7 +1,7 @@
 Testing require.js code with wallaby.js
 ==================================
 
-To get Wallaby.js to run with [Require.js] we need two files:
+To get Wallaby.js to run with require.js we need two files:
 
 * `wallaby.js` &mdash; which configures wallaby.js
 * `test-main.js` &mdash; which configures require.js for the tests
@@ -123,4 +123,4 @@ define(['app', 'jquery', 'underscore'], function(App, $, _) {
 ```
 ---
 
-Based on [Karma with require.js repository}(https://github.com/kjbekkelund/karma-requirejs), with some wallaby specific changes.
+Based on [Karma with require.js repository](https://github.com/kjbekkelund/karma-requirejs), with some wallaby specific changes.
