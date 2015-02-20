@@ -48,6 +48,8 @@ module.exports = function () {
 };
 ```
 
+Please notice that we need set `load: false` to all the files and tests except `test/test-main.js`, everything else is loaded by require.js.
+
 In this example we'll use Jasmine (wallaby.js is using it by default), but other test frameworks works just
 as well.
 
