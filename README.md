@@ -1,6 +1,8 @@
 Testing require.js code with wallaby.js
 ==================================
 
+![screen shot 2015-04-13 at 2 45 02 pm](https://cloud.githubusercontent.com/assets/979966/7109935/b9fd680e-e1eb-11e4-96f1-1d8482efa6e5.png)
+
 To get Wallaby.js to run with require.js we need two files:
 
 * `wallaby.js` &mdash; which configures wallaby.js
