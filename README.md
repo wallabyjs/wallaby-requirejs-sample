@@ -86,14 +86,13 @@ requirejs.config({
     'underscore': {
       exports: '_'
     }
-  },
-
-  // asking require.js to load our tests
-  deps: wallaby.tests,
-
-  // starting run once require.js is done
-  callback: wallaby.start
+  }
 });
+
+require(wallaby.tests, function () {
+  wallaby.start();
+});
+
 ```
 
 ## Using Require.js in tests
